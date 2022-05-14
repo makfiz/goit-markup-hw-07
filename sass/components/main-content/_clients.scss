@@ -1,0 +1,28 @@
+.clients {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client {
+    height: 60px;
+    width: 106px;
+    box-sizing: content-box;
+    padding: 16px 32px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: #afb1b8;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-card {
+    display: flex;
+    outline: none;
+    &:hover .client,
+    &:focus .client {
+        fill: var(--accent-text-color);
+        border: 1px solid var(--accent-text-color);
+        border-radius: 4px;
+        }
+}
+

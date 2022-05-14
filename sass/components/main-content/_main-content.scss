@@ -1,0 +1,13 @@
+main {
+    background-color: var(--white-text-color);
+}
+
+.section {
+    padding: 94px 0px 94px 0px;
+}
+
+@import "./business-solutions";
+@import "./our-advantages";
+@import "./what-are-we-doing";
+@import "./our-team";
+@import "./clients";
